@@ -1,0 +1,22 @@
+/*=============njfklewn=========*/
+
+#about-hero {
+    height: 450px;
+    background-image: url("../image/lion1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 80%;
+}
+
+
+.colum{
+    float: left;
+    width:33%;
+}
+
+.colum h3 {
+    text-align: center;
+    font-weight:600;
+}
+
+.colum

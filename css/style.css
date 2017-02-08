@@ -1,0 +1,55 @@
+/*=========UNIVERSALS============*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+.red-backgroung {
+    background-color: #e40007;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pull-left {
+    float: left;
+    
+}
+.pull-right {
+    float: right;
+}
+    
+.half {
+}
+/*==========HEADER==========*/
+header {
+    padding: 0 20px;
+    background-color: #e40007;
+}
+
+span h4 {
+  float: left;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+
+ li {   
+     display: inline-block;
+     margin: 0 15px;
+     
+}
+
+header>ul>li>a {
+   
+    text-decoration: none
+}
+
+
+

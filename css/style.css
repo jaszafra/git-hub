@@ -1,55 +1,70 @@
 /*=========UNIVERSALS============*/
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
-.red-backgroung {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+}
+
+.red-background{
     background-color: #e40007;
 }
 
 .white-text {
-    color: #fff;
+    color: #000;
 }
-
 .inline-block {
     display: inline-block;
 }
-
 .pull-left {
     float: left;
-    
 }
 .pull-right {
     float: right;
 }
     
 .half {
+    width: 50%;
 }
-/*==========HEADER==========*/
-header {
-    padding: 0 20px;
-    background-color: #e40007;
+a {
+    text-decoration: none;
+}
+button {
+    border:none;
+    padding: 15%;
+    border-radius: 4px;
+    font-size: 18px;
 }
 
-span h4 {
-  float: left;
+header {
+    padding: 15%;
+    background-color: #e40007;
+    height: 100px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
 }
+
 ul {
     list-style-type: none;
     float: right;
-    margin: 0;
+    margin: 0px;
+    
 }
 
  li {   
      display: inline-block;
-     margin: 0 15px;
-     
+     margin: 0px 15px;
+}
+span h2 {
+    inline-block: 50px;
 }
 
 header>ul>li>a {
-   
-    text-decoration: none
+    text-decoration:none;
+    color:#fff;
+    
 }
-
-
+header>ul>li>a {
 

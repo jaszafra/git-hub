@@ -9,8 +9,8 @@
 }
 
 
-.colum{
-    float: left;
+.column{
+    float:left;
     width:33%;
 }
 
@@ -19,4 +19,12 @@
     font-weight:600;
 }
 
-.colum
+.column>p{
+    text-align:justify;
+    padding:8px;
+}
+
+#col-1 button{
+    background-color: #BE9640;
+    
+}
